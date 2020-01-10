@@ -1,0 +1,36 @@
+{
+  "author": "Chris Gutwin <24538491+cgutwin@users.noreply.github.com> (https://cgutwin.ca)",
+  "bugs": {
+    "url": "https://github.com/cgutwin/api-testing/issues"
+  },
+  "contributors": [
+    "Chris Gutwin <24538491+cgutwin@users.noreply.github.com> (https://cgutwin.ca)"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "description": "learning to test express rest apis",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
+  },
+  "engines": {
+    "node": ">=13.6.0",
+    "npm": ">=6.13.6"
+  },
+  "homepage": "https://github.com/cgutwin/api-testing#readme",
+  "keywords": [],
+  "main": "index.js",
+  "name": "api-testing",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgutwin/api-testing.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
