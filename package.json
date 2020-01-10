@@ -33,6 +33,9 @@
     "url": "git+https://github.com/cgutwin/api-testing.git"
   },
   "scripts": {
+    "build/dev": "babel src -d build/dev",
+    "prestart": "npm run build/dev",
+    "start": "node build/dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "1.0.0"
