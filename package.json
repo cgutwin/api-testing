@@ -41,7 +41,7 @@
     "build/dev": "babel src -d build/dev",
     "prestart": "npm run build/dev",
     "start": "node build/dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require @babel/register 'src/**/**spec.js'"
   },
   "version": "1.0.0"
 }

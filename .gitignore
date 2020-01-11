@@ -1,5 +1,6 @@
-# Webstorm config
+# WebStorm
 .idea
+!.idea/runConfigurations
 
 # Dev build files
 build
