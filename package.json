@@ -22,6 +22,7 @@
     "@types/supertest": "^2.0.8",
     "chai": "^4.2.0",
     "mocha": "^7.0.0",
+    "nyc": "^15.0.0",
     "supertest": "^4.0.2"
   },
   "engines": {
@@ -41,7 +42,8 @@
     "build/dev": "babel src -d build/dev",
     "prestart": "npm run build/dev",
     "start": "node build/dev",
-    "test": "mocha --require @babel/register 'src/**/**spec.js'"
+    "test": "mocha --require @babel/register 'src/**/**spec.js'",
+    "test/coverage": "nyc npm run test"
   },
   "version": "1.0.0"
 }
